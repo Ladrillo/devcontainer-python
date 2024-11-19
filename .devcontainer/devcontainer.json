@@ -1,0 +1,9 @@
+{
+  "name": "GabesPythonDevContainer",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "mounts": [
+    "type=bind,source=${env:HOME}/.gitconfig,target=/root/.gitconfig"
+  ]
+}
