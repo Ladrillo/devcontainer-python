@@ -1,4 +1,5 @@
-FROM mcr.microsoft.com/devcontainers/python:1-3.11-bookworm
+# FROM mcr.microsoft.com/devcontainers/python:1-3.11-bookworm
+FROM mcr.microsoft.com/devcontainers/python:1-3.12-bullseye
 
 # Update the package manager
 RUN apt-get update -y
