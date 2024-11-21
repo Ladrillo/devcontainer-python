@@ -23,3 +23,10 @@
     ```
 
 5. Have fun!
+
+    ```bash
+    pip list
+    pip list --outdated
+    pip list --not-required
+    python main.py
+    ```

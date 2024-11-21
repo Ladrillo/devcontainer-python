@@ -1,1 +1,1 @@
-print("working")
+print("Let's have some fun!")
