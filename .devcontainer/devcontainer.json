@@ -5,5 +5,6 @@
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "mounts": [
     "type=bind,source=${env:HOME}/.gitconfig,target=/vscode/.gitconfig"
-  ]
+  ],
+  "postStartCommand": "pip install -r requirements.txt"
 }

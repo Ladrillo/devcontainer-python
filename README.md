@@ -10,19 +10,13 @@
 
 2. Reopen the project in a dev container.
 
-3. Upgrade existing global packages to the versions shown in requirements.txt:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. Install new dependencies in your project:
+3. Install new dependencies in your project if needed:
 
     ```bash
     pip install openai && pip freeze > requirements.txt
     ```
 
-5. Have fun!
+4. Have fun!
 
     ```bash
     pip list
