@@ -1,5 +1,5 @@
 {
-  "name": "GabesPythonDevContainer",
+  "name": "DevContainerPython3",
   "dockerComposeFile": "docker-compose.yml",
   "service": "devcontainer",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
