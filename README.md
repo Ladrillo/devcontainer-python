@@ -6,20 +6,20 @@
     OPENAI_API_KEY=abcd
     ```
 
-    This is an example. Replace `abcd` with desired values.
+    This is an example. Replace `abcd` with desired value.
 
 2. Reopen the project in a dev container.
 
-3. Install dependencies for your project:
+3. Upgrade existing global packages to the versions shown in requirements.txt:
 
     ```bash
-    pip install openai
+    pip install -r requirements.txt
     ```
 
-4. Update your requirements.txt file:
+4. Install new dependencies for your project:
 
     ```bash
-    pip freeze > requirements.txt
+    pip install openai && pip freeze > requirements.txt
     ```
 
 5. Have fun!
