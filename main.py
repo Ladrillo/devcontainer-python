@@ -1,3 +1,1 @@
-import openai
-
 print("working")
