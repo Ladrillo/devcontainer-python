@@ -1,6 +1,6 @@
 # Python3 DevContainer
 
-1. Create an `.env` file and place it inside the `.devcontainer` folder.
+1. Create an `.env` file inside the `.devcontainer` folder and add your API keys, etc:
 
     ```text
     OPENAI_API_KEY=abcd
