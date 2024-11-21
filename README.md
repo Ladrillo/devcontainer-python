@@ -16,7 +16,7 @@
     pip install -r requirements.txt
     ```
 
-4. Install new dependencies for your project:
+4. Install new dependencies in your project:
 
     ```bash
     pip install openai && pip freeze > requirements.txt
