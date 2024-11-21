@@ -11,4 +11,4 @@ WORKDIR /workspaces
 RUN pip install --no-cache-dir --upgrade pip
 
 # Default command for debugging
-CMD ["/bin/bash"]
+CMD ["/usr/bin/zsh"]
