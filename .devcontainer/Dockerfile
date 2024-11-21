@@ -10,8 +10,5 @@ WORKDIR /workspaces
 # Upgrade pip
 RUN pip install --no-cache-dir --upgrade pip
 
-# Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt || true
-
 # Default command for debugging
 CMD ["/bin/bash"]

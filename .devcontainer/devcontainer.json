@@ -4,6 +4,6 @@
   "service": "devcontainer",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "mounts": [
-    "type=bind,source=${env:HOME}/.gitconfig,target=/root/.gitconfig"
+    "type=bind,source=${env:HOME}/.gitconfig,target=/vscode/.gitconfig"
   ]
 }
