@@ -10,5 +10,8 @@ WORKDIR /workspaces
 # Upgrade pip
 RUN pip install --no-cache-dir --upgrade pip
 
+# Install HTTPie
+RUN pip install --no-cache-dir httpie
+
 # Default command for debugging
 CMD ["/usr/bin/zsh"]
